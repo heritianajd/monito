@@ -1,0 +1,147 @@
+#news{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background: #FDFDFD;
+}
+
+.new-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-head span{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.new-head h3{
+    font-size: 24px;
+    color: #003459;
+    font-weight: 700;
+}
+.newButtonView{
+    font-size: 14px;
+    color: #003459;
+    display: flex;
+    padding: 12px 28px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    background: none;
+}
+
+.new-container{
+    display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.new-grid{
+    width: 23%;
+    padding: 8px 8px 20px 8px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 28px -2px #00000014;
+
+}
+
+.picture-animal-new {
+    width: 100%;
+}
+
+.new-grid h4{
+    color: #00171F;
+    font-size: 16px;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.gene-age{
+    font-size: 12px;
+    color: #667479;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-weight: 500;
+}
+.gene-age em{
+    font-style: normal;
+    font-weight: 700;
+}
+
+.new-grid h5{
+    color: #00171F;
+    font-size: 14px;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.new-grid-text{
+    padding: 8px 0 0 0;
+}
+
+.newButtonView2{
+    display: none;
+}
+.newButtonView2 button{
+    font-size: 16px;
+    color: #003459;
+    display: flex;
+    padding: 12px 28px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    background: none;
+    width: 100%;
+    justify-content: center;
+}
+@media (max-width:1366px) {
+    #news{
+        width: 90%;
+    }
+}
+
+@media (max-width:1250px){
+    .new-grid {
+        width: 31%;
+    }
+}
+
+@media (max-width:768px) {
+    .new-head span{
+        font-size: 14px;
+    }
+
+    .new-head h3{
+        font-size: 20px;
+    }
+
+    .newButtonView{
+        display: none;
+    }
+    .newButtonView2{
+        display: block;
+    }
+
+    .new-grid{
+        width: 100%;
+    }
+
+    .new-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    body{
+        gap: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    #news {
+        width: 94%;
+    }
+}

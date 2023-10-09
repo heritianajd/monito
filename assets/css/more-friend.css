@@ -1,0 +1,160 @@
+
+#more-friend{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    background-image: url(../pictures/home/pic-bg-more.png);
+    background-size: cover;
+}
+
+.more-friend-picture img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+}
+
+.more-friend-picture{
+    padding: 32px 0 0 20px;
+    position: relative;
+    width: 54%;
+    display: flex;
+    align-items: end;
+}
+
+.more-friend-text{
+    padding: 64px 85px 56px 0;
+    text-align: end;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.more-friend-text h1{
+    color: #003459;
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.more-friend-text h2{
+    color: #003459;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.more-friend-text p{
+    font-size: 12px;
+    color: #242B33;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    max-width: 75%;
+    display: inline-block;
+}
+
+.txt-more-block{
+    position: relative;
+    z-index: 5;
+    max-width: 70%;
+    text-align: end;
+}
+
+.button-view-explore{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.btnViewMore{
+    padding: 12px 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    background: #FCEED5;
+    gap: 8px;
+    color: #003459;
+    outline: none;
+}
+
+.btnExploreMore{
+    background: #003459;
+    color: #FDFDFD;
+    padding: 12px 28px;
+    border-radius: 57px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+}
+
+.more-friend-picture{
+    position: relative;
+}
+
+@media (max-width:1366px) {
+    #more-friend{
+        width: 90%;
+    }
+}
+
+@media (max-width:1250px) {
+    .more-friend-text h1{
+        font-size: 36px;
+    }
+
+    .more-friend-text h2{
+        font-size: 24px;
+    }
+
+    .more-friend-text{
+        padding: 64px 40px 56px 0;
+    }
+
+    .more-friend-picture{
+        width: 70%;
+    }
+}
+
+@media (max-width:950px) {
+    #more-friend{
+        flex-direction: column-reverse;
+        background-image: url(../pictures/home/bg-mora-responsive.png);
+    }
+
+    .more-friend-text{
+        padding: 32px 20px 20px 23px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .txt-more-block{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .button-view-explore{
+        justify-content: center;
+    }
+
+    .more-friend-text p{
+        max-width: 100%;
+    }
+
+    .more-friend-picture{
+        width: 100%;
+        padding: 0;
+    }
+
+    .button-view-explore{
+        gap: 16px;
+    }
+}
+
+@media (max-width:576px) {
+    #more-friend{
+        width: 94%;
+    }
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category - Monito</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/home-category.css">
+    <link rel="stylesheet" href="assets/css/filter-smalldog.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <form class="blocSearch">
+                <div class="searchBtn">
+                    <img src="assets/pictures/home/icone-search-header.png" alt="icone-search">
+                </div>
+                <div class="inputSearch">
+                    <input type="search">
+                </div>
+            </form>
+            <a href="#" class="logo-monito"><img src="assets/pictures/home/logo-monito.png" alt="logo-monito"></a>
+            <div class="toggle">
+                <img class="open-menu" src="assets/pictures/home/menu-humburger.png" alt="icone-menu">
+                <img class="close-menu" src="assets/pictures/home/close-menu.png" alt="iicone-close">
+            </div>
+            <div id="header-menu">
+                <div class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="category.html">Category</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <form action="" class="form-header">
+                    <div class="search-header">
+                        <img src="assets/pictures/home/search.png" alt="icone-search">
+                        <input type="search" placeholder="Search something here!">
+                    </div>
+                    <a class="join-header" href="#">Join the community</a>
+                    <div class="vnd-header">
+                        <img src="assets/pictures/home/star.png" alt="icne-star">
+                        <select name="" id="">
+                            <option value="">VND</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="main-category">
+        <section id="home-category">
+            <div class="home-category-head">
+                <span>Home</span>
+                <button><img src="assets/pictures/category-page/icon-next.png" alt="icone-next"></button>
+                <span>Dog</span>
+                <button><img src="assets/pictures/category-page/icon-next.png" alt="icone-next"></button>
+                <span>Small Dog</span>
+            </div>
+            <div class="home-category-container">
+                <div class="picture-home-category">
+                    <img src="assets/pictures/category-page/adorable-puppies1.png" alt="picture-home-category">
+                </div>
+                <div class="home-category-txt">
+                    <h1>One more friend </h1>
+                    <h2>Thousands more fun!</h2>
+                    <p>Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun.
+                         We have 200+ different pets that can meet your needs!
+                    </p>
+                    <div class="homeCategory-button">
+                        <button class="viewButton">View Intro <img src="assets/pictures/home/play-circle.png" alt="play-circle"></button>
+                        <button class="exploreButton">Explore Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="filterAnd-smalDog">
+            <div class="category-filter">
+                    <div class="filter-head">
+                        <button id="sortPopularbtn2">Sort by: Popular <img src="assets/pictures/category-page/caretdown.png" alt="icone-caret-down"></button>
+                        <div class="filter-rigth">
+                            <button id="buttonFilter" data-toggle-sidebar="sidebar1" aria-label="Toggle the document main sidebar visibility"><img src="assets/pictures/category-page/filter-icone.png" alt="icone-flter"></button>
+                            <h3>Filter</h3>
+                        </div>
+                    </div>
+                <h3 class="title-filter">Filter</h3>
+                <div class="filter-container" id="sidebar1" class="sidebar" id="filter" aria-label="Main sidebar containing navigation links and some information" aria-hidden="true">
+                    <div class="gender-category">
+                        <h4>Gender</h4>
+                        <form action="">
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <label for="checkbox">Male</label>
+                            </div>
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <label for="checkbox">Female</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="color-category">
+                        <h4>Color</h4>
+                        <form action="">
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <img src="assets/pictures/category-page/red.png" alt="">
+                                <label for="checkbox">Red</label>
+                            </div>
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <img src="assets/pictures/category-page/apricot.png" alt="">
+                                <label for="checkbox">Apricot</label>
+                            </div>
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <img src="assets/pictures/category-page/black.png" alt="">
+                                <label for="checkbox">Black</label>
+                            </div>
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <img src="assets/pictures/category-page/black-white.png" alt="">
+                                <label for="checkbox">Black & White</label>
+                            </div>
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <img src="assets/pictures/category-page/silver.png" alt="">
+                                <label for="checkbox">Silver</label>
+                            </div>
+                            <div class="filter-input">
+                                <input type="checkbox">
+                                <img src="assets/pictures/category-page/tan.png" alt="">
+                                <label for="checkbox">Tan</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="price">
+                        <h4>Price</h4>
+                        <div class="min-max">
+                            <div class="min-price">
+                                <span>Min</span>
+                                <button><img src="assets/pictures/category-page/unfold.png" alt=""></button>
+                            </div>
+                            <div class="max-price">
+                                <span>Max</span>
+                                <button><img src="assets/pictures/category-page/unfold.png" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="breed">
+                        <h4>Breed</h4>
+                        <form action="">
+                            <div  class="filter-input">
+                                <input type="checkbox">
+                                <label for="checkbox">Small</label>
+                            </div>
+                            <div  class="filter-input">
+                                <input type="checkbox">
+                                <label for="checkbox">Medium</label>
+                            </div>
+                            <div  class="filter-input">
+                                <input type="checkbox">
+                                <label for="checkbox">Large</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="category-smallDog">
+                <div class="smallDog-head">
+                    <h2>Small Dog <span>52 puppies</span></h2>
+                    <button class="sortPopularbtn">Sort by: Popular <img src="assets/pictures/category-page/caretdown.png" alt="icone-caret-down"></button>
+                </div>
+                <div class="smallDog-container">
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog2-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO502 - Poodle Tiny Yellow</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Female</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>3.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog3-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO102 - Poodle Tiny Sepia</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>4.000.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog"src="assets/pictures/category-page/dog4-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO512 - Alaskan Malamute Grey</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>8.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog5-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO502 - Poodle Tiny Yellow</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Female</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>3.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog6-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO102 - Poodle Tiny Sepia</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>4.000.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog7-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO512 - Alaskan Malamute Grey</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>8.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog8-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO502 - Poodle Tiny Yellow</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Female</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>3.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog4-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO102 - Poodle Tiny Sepia</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>4.000.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog1-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO512 - Alaskan Malamute Grey</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>8.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog2-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO502 - Poodle Tiny Yellow</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Female</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>3.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog3-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO102 - Poodle Tiny Sepia</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>4.000.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog4-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO512 - Alaskan Malamute Grey</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>8.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog5-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO502 - Poodle Tiny Yellow</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>3.900.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog6-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO102 - Poodle Tiny Sepia</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>4.000.000 VND</h5>
+                        </div>
+                    </div>
+                    <div class="smallDog-grid">
+                        <a href="product-tail.html"><img class="picture-smallDog" src="assets/pictures/category-page/dog7-category.png" alt="animals-pictures"></a>
+                        <div class="smallDog-gridtxt">
+                            <h4>MO512 - Alaskan Malamute Grey</h4>
+                            <div class="gene-age">
+                                <p>Gene: <em>Male</em></p>
+                                <li>Age: <em>02 months</em></li>
+                            </div>
+                            <h5>8.900.000 VND</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-small-select">
+                    <button class="button-select" id="select-left"><img src="assets/pictures/category-page/left-icone.png" alt="icone-left"></button>
+                    <div class="button-select-animals">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>...</button>
+                        <button>28</button>
+                    </div>
+                    <button class="button-select" id="select-left"><img src="assets/pictures/category-page/right-icone.png" alt="icone-right"></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <div class="form-footer">
+                <h4>Register Now So You Don't Miss Our Programs</h4>
+                <form action="">
+                    <input type="email" placeholder="Enter your Email">
+                    <button class="subcribeBtn" type="submit">Subcribe Now</button>
+                </form>
+            </div>
+            <div class="footer-link">
+                <div class="menu-footer">
+                    <a href="#">Home</a>
+                    <a href="#">Category</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-social-media">
+                    <a href="#"><img src="assets/pictures/footer/facebook.png" alt="icone-facebook"></a>
+                    <a href="#"><img src="assets/pictures/footer/twitter.png" alt="icone-twitter"></a>
+                    <a href="#"><img src="assets/pictures/footer/instagram.png" alt="icone-instagram"></a>
+                    <a href="#"><img src="assets/pictures/footer/you-tube.png" alt="icone-youTube"></a>
+                </div>
+            </div>
+            <div class="block3-footer">
+                <span>© 2022 Monito. All rights reserved.</span>
+                <a href="#"><img src="assets/pictures/footer/logo-footer.png" alt="logo-monito"></a>
+                <div class="service-policy">
+                    <p>Terms of Service</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/search.js"></script>
+</body>
+</html>

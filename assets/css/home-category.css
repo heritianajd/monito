@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-category-head{
+    display: flex;
+    align-items: center;
+    padding-top: 109px;
+    padding-bottom: 9px;
+    gap: 6px;
+}
+
+.home-category-head span{
+    font-size: 14px;
+    color: #667479;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.home-category-head button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    display: flex;
+}
+
+#home-category{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.home-category-container{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../pictures/category-page/bg-home-category.png);
+    background-size: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.picture-home-category{
+    padding-left: 51px;
+    display: flex;
+    align-items: end;
+}
+
+.picture-home-category img{
+    width: 100%;
+}
+
+.home-category-txt{
+    padding: 64px 85px 56px 0;
+    text-align: end;
+    width: 40%;
+}
+.home-category-txt h1{
+    font-size: 52px;
+    font-weight: 800;
+    color: #FDFDFD;
+    margin-bottom: 2px;
+}
+
+.home-category-txt h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FDFDFD;
+}
+
+.home-category-txt p{
+    color: #CCD1D2;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.homeCategory-button{
+    display: flex;
+    justify-content: end;
+    margin-top: 24px;
+    gap: 20px;
+}
+
+@media (max-width:1366px) {
+    #home-category{
+        width: 90%;
+    }
+}
+
+@media (max-width:1250px) {
+    .home-category-txt {
+        padding: 64px 45px 56px 0; 
+        width: 60%;
+    }
+
+    .picture-home-category{
+        padding-left: 20px;
+    }
+
+    .home-category-txt h1{
+        font-size: 42px;
+    }
+
+    .home-category-txt h2{
+        font-size: 26px;
+    }
+}
+
+@media (max-width:950px){
+    .home-category-container{
+        flex-direction: column-reverse;
+    }
+
+    .home-category-txt{
+        width: 100%;
+        text-align: start;
+        padding: 32px 20px 32px 16px;
+    }
+
+    .home-category-txt h1{
+        color: #002A48;
+    }
+
+    .home-category-txt h2{
+        color: #002A48;
+    }
+
+    .home-category-txt p{
+        color: #242B33;
+        max-width: 70%;
+    }
+
+    .homeCategory-button{
+        justify-content: start;
+    }
+
+    .picture-home-category{
+        padding-left: 0;
+    }
+}
+
+@media (max-width:576px){
+    .home-category-txt p{
+        max-width: 100%;
+    }
+
+}

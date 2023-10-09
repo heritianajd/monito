@@ -1,0 +1,193 @@
+#pepShelers{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.pepShelers-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.pepShelers-head p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pepShelers-head span{
+    font-size: 24px;
+    color: #003459;
+    font-weight: 700;
+}
+
+#btnShelersview{
+    padding: 12px 28px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #003459;
+}
+
+.part-pepShelers{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* adoption */
+
+.adoption{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../pictures/sellers/pic-bg2.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.adoption-txt{
+    width: 50%;
+    padding: 64px 0 56px 10%;
+}
+.adoption-txt h1{
+    color: #003459;
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.adoption-txt h3{
+    color: #003459;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.adoption-txt p{
+    color: #242B33;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.btnExploreAdoption{
+    color: #FDFDFD;
+    border-radius: 57px;
+    padding: 14px 28px 10px 28px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    background: var(--primary-color-dark-blue, #003459);
+}
+
+.btnViewAewdoption{
+    border-radius: 57px;
+    color: #003459;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    gap: 8px;
+    padding: 14px 28px 10px 28px;
+    border: 1.5px solid var(--primary-color-dark-blue, #003459);
+}
+
+.btn-adoption{
+    display: flex;
+    gap: 20px;
+    margin-top: 42px;
+}
+
+.adoption-picture{
+    width: 50%;
+    display: flex;
+    align-items: end;
+}
+
+.adoption-picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btnShelersview2{
+    display: none;
+}
+.btnShelersview2 button{
+    padding: 12px 28px;
+    border-radius: 57px;
+    border: 1.5px solid #003459;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #003459;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1366px) {
+    #pepShelers{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:1250px) {
+    .adoption-txt{
+        padding: 64px 0 56px 40px;
+        width: 54%;
+    }
+
+    .adoption-txt h1{
+        font-size: 42px;
+    }
+
+    .adoption-txt h3{
+        font-size: 24px;
+    }
+
+    .btn-adoption{
+        gap: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    #btnShelersview{
+        display: none;
+    }
+    .btnShelersview2{
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .part-pepShelers{
+        padding-bottom: 20px;
+    }
+
+    .pet-knowledge-container{
+        flex-direction: column;
+    }
+
+    .adoption-txt{
+        width: 100%;
+        padding: 40px;
+    }
+
+    .adoption-picture{
+        display: none;
+    }
+}
+@media (max-width:576px) {
+    #pepShelers{
+        width: 94%;
+    }
+
+    .pepShelers-head span{
+        font-size: 20px;
+    }
+}

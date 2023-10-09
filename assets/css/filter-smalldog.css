@@ -1,0 +1,350 @@
+body {
+    overflow-x: hidden;
+}
+#filterAnd-smalDog{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 35px;
+    gap: 20px;
+}
+
+/* category-filter */
+.category-filter{
+    width: 20%;
+}
+
+.category-smallDog{
+    width: 80%;
+}
+
+.category-filter h3{
+    color: #003459;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.filter-container h4{
+    color: #00171F;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.filter-container label{
+    color: #00171F;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.price{
+    padding: 16px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.min-max{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.min-price{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.max-price{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.min-price{
+    padding: 10px;
+    border-bottom: 1px solid var(--neutral-color-10, #EBEEEF);
+}
+.min-max button{
+    display: flex;
+    background: transparent;
+    border: none;
+}
+.max-price{
+    padding: 10px;
+    border-bottom: 1px solid var(--neutral-color-10, #EBEEEF);
+}
+.min-max span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #242B33;
+}
+
+.gender-category{
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--neutral-color-10, #EBEEEF);
+}
+
+.color-category{
+    padding: 16px 0;
+    border-bottom: 1px solid var(--neutral-color-10, #EBEEEF);
+}
+
+.breed{
+    border-bottom: 1px solid var(--neutral-color-10, #EBEEEF);
+    border-top: 1px solid var(--neutral-color-10, #EBEEEF);
+    padding: 16px 0 16px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category-filter form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filter-input{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* category-smallDog */
+.smallDog-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.smallDog-head h2{
+    color: #003459;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.smallDog-head span{
+    color: #667479;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.smallDog-head .sortPopularbtn{
+    padding: 6px 10px 4px 20px;
+    border-radius: 20px;
+    color: #667479;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFFF;
+    border: 1px solid var(--neutral-color-20, #CCD1D2); 
+}
+
+.smallDog-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.smallDog-grid{
+    width: 31%;
+    padding: 8px 8px 0 8px;
+    border-radius: 12px;
+    background: var(--neutral-color-00, #FDFDFD);
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+}
+
+.picture-smallDog{
+    width: 100%;
+}
+
+.smallDog-gridtxt{
+    padding: 16px 8px 20px 8px;
+}
+
+.smallDog-gridtxt h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #00171F;
+}
+
+.gene-age{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #667479;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.gene-age em{
+    color: #667479;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.gene-age h5{
+    font-size: 14px;
+    color: #00171F;
+    font-weight: 700;
+}
+
+/* button-small-select */
+
+.button-small-select{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.button-select-animals{
+    display: flex;
+    gap: 12px;
+}
+
+.button-select{
+    display: flex;
+    background: transparent;
+    border: none;
+}
+
+.button-select-animals button{
+    color: #003459;
+    font-size: 18px;
+    font-weight: 700;
+    /* padding: 6px 13px 4px 13px; */
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 0 4px 0;
+    width: 34px;
+    outline: none;
+}
+
+.button-select-animals button:hover{
+    color: #FDFDFD;
+    background-color: #003459;
+}
+
+  #sortPopularbtn2{
+    padding: 6px 10px 4px 20px;
+    border-radius: 20px;
+    color: #667479;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #FFFF;
+    border: 1px solid var(--neutral-color-20, #CCD1D2); 
+}
+
+
+
+.filter-rigth{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#buttonFilter{
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.filter-rigth h3{
+    margin-bottom: 0;
+}
+
+.filter-head{
+    display: none;
+}
+
+/* survol */
+
+@media (max-width:1366px) {
+    #filterAnd-smalDog{
+        width: 90%;
+    }
+}
+
+@media (max-width:992px){
+    .smallDog-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .smallDog-grid{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    #filterAnd-smalDog{
+        flex-direction: column;
+    }
+
+    .category-smallDog{
+        width: 100%;
+    }
+
+    .category-filter{
+        width: 100%;
+    }
+
+    .filter-head{
+        display: block;
+    }
+
+    .filter-head{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .title-filter{
+        display: none;
+    }
+
+    .sortPopularbtn{
+        display: none!important;
+    }
+
+    /* survol */
+    .filter-container {
+        background-color: #f1f1f1;
+        position: absolute;
+        right: 0;
+        padding: 24px;
+        border-radius: 8px;
+    }
+
+    .filter-container[aria-hidden="true"] {
+        transition: 200ms;
+        transform: translateX(100%);
+    }
+        /* SIDEBAR VISIBLE STATE */
+    .filter-container:not([aria-hidden]),
+    .filter-container[aria-hidden="false"] {
+        transition: 200ms;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width:576px) {
+    #filterAnd-smalDog{
+        width: 95%;
+    }
+}

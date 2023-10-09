@@ -1,0 +1,139 @@
+body{
+    background: #FDFDFD;
+}
+#curtomer{
+    width: 85%;
+    padding: 24px 26px;    
+    margin: auto;
+    overflow: hidden;
+}
+#curtomer h2{
+    color: #00171F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cutomer-container{
+    display: flex;
+    gap: 12px;
+    padding: 12px 0 24px 0;
+}
+
+.customer-items img{
+    border-radius: 10px;
+    width: 260px;
+    height: 340px;
+}
+
+.button-points .btn-point{
+    width: 14px;
+    height: 14px;
+    background: #CCD1D2;
+    border-radius: 7.5px;
+    border: none;
+    outline: none;
+}
+
+.btn-point:hover{
+    background: #003459;
+    width: 25px;
+}
+
+.button-points{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* product-new */
+
+#product-new{
+    width: 85%;
+    margin: auto;
+}
+
+.product-new-head{
+    margin-bottom: 28px;
+}
+
+.product-new-head h5{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.product-new-head h3{
+    font-size: 24px;
+    color: #003459;
+    font-weight: 700;
+}
+
+.product-new-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product-new-grid{
+    width: 100%;
+    padding: 8px 8px 0 8px;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.product-new-gridtxt{
+    padding: 8px 8px 20px 8px;
+}
+
+.picture-product{
+    width: 100%;    
+}
+
+.product-new-gridtxt h4{
+    color: #00171F;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.gene-age{
+    font-size: 12px;
+    font-weight: 500;
+    color: #667479;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.gene-age em{
+    font-style: normal;
+    font-weight: 700;
+}
+
+.product-new-gridtxt h5{
+    color: #00171F;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+@media (max-width:992px) {
+    .product-new-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:768px) {
+    .gene-age{
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .gene-age li{
+        list-style: none;
+    }
+
+    .footer-link{
+        flex-direction: column;
+    }
+}
